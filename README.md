@@ -32,11 +32,26 @@ Data preprocessing and querying were conducted in SSMS to compute critical indic
  ---
 
  ## Key Insights
-- Brand Influence: Certain brands consistently command higher average prices, suggesting stronger resale value and market demand.
-- Car Age and Mileage: Older cars and those with higher mileage exhibit predictable price depreciation trends.
-- Ownership and Accidents: Listings with multiple owners or reported accidents generally result in lower average prices, signaling reduced buyer confidence.
-- Transmission and Fuel Type: Automatic vehicles and petrol-based cars show noticeable pricing differences, with variations based on consumer preference and fuel economy.
-- Multi-Factor Analysis: Combined influence of ownership, accident history, transmission type, and fuel type reveals nuanced pricing clusters valuable for dealerships and buyers alike.
+Based on 8,994 used‑car listings, the analysis reveals several meaningful pricing and market behavior patterns:
+1. Average used‑car prices vary significantly by fuel type
+   - Electric vehicles command the highest average price at 9,849, well above diesel and petrol cars.
+   - Diesel and petrol vehicles show similar pricing levels, both averaging around 6,900–7,000, indicating a more competitive and saturated market.
+2. Owner count strongly influences resale value
+   - Cars with fewer previous owners consistently sell for more.
+   - Average price drops steadily from ~8K for 1‑owner cars to ~6K for 5‑owner cars, showing a clear depreciation trend tied to ownership history.
+3. Newer vehicles predictably achieve higher prices
+   - Average price increases sharply for cars manufactured after 2010, peaking around 2015–2020.
+   - Older models (1995–2005) show significantly lower average prices, reflecting age‑based depreciation.
+4. Brand pricing is relatively balanced across major manufacturers
+   - Brands such as BMW, Volkswagen, Honda, Toyota, Hyundai, Kia, and Ford all cluster around 7.1K–7.3K average price.
+   - This suggests a competitive market with no extreme outliers among mainstream brands.
+5. Mileage is a major driver of price differences
+   - Cars with more than 30k miles average around 8K, while low‑mileage vehicles (<10k miles) average closer to 5.5K.
+   - This confirms mileage as one of the strongest predictors of resale value.
+6. Engine size correlates with higher pricing
+   - Larger engines (e.g., 4000cc) reach average prices above 11K, while smaller engines (1000–1500cc) fall between 4.9K–6K.
+   - This reflects consumer preference for performance‑oriented vehicles and the higher cost of larger‑engine models.
+
 
 ---
 
