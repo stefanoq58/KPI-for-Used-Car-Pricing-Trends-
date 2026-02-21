@@ -1,4 +1,4 @@
-# KPI-for-Used-Car-Pricing-Trends
+# KPI for Used Car Pricing Trends
 
 ## Overview
 The objective of this project was to analyze key factors influencing the pricing of used cars in the secondhand vehicle market. Using a Kaggle dataset of car listings (https://www.kaggle.com/datasets/therohithanand/used-car-price-prediction/data) and leveraging SQL Server Management Studio (SSMS) and Power BI, the project investigates how various variables—such as car age, mileage, brand, fuel type, ownership history, and accident reports—affect resale value.
